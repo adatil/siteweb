@@ -1,0 +1,5 @@
+Il est possible d'envoyer un simple texte sans aucune fioriture via HTTP.
+
+ Le type de donnée transmis par HTTP dans ce cas est qualifié de text/plain (text : format textuel, plain : aucune interprétation) à l'opposé de text/html lorsque de l'HTML est transmis ou image/jpeg lorsqu'une image au format JPEG est récupérée.
+
+Ce format est très simple, trop simple. Même un simple texte a une part d'interprétation : en effet ce qui est réellement transmis sur internet c'est une série de 0 et de 1 qui sont vu par l'ordinateur comme une suite de nombres, il faut ensuite traduire chacun de ces nombres par une lettre mais malheureusement cette traduction n'est pas universelle, il existe de nombreux standards différents, appelés *encodage* de texte.

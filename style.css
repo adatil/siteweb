@@ -1,0 +1,38 @@
+body {
+	margin: 1cm;
+	padding: 5mm;
+	background-color: lightblue;
+	font-family: "Times New Roman", Times, serif;
+}
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 300%;
+	color: red;
+	text-align: center;
+}
+img {
+	border: solid yellow 3px;
+	margin: 1cm;
+	padding: 2mm;
+}
+p, ol, li {
+	color: rgb(110,110,110);
+}
+ul {
+	padding-left: 15mm;
+}
+
+a:link {
+	color: green;
+	text-decoration: underline;
+}
+a:visited {
+	color: gray;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+a:active, a:focus {
+	color: red;
+}
